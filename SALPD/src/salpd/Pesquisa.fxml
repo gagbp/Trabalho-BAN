@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="salpd.Pesquisa">
+   <children>
+      <Button layoutX="488.0" layoutY="483.0" mnemonicParsing="false" onAction="#Sair" prefHeight="25.0" prefWidth="62.0" text="Sair" />
+      <TabPane layoutY="-1.0" prefHeight="474.0" prefWidth="576.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Pesquisa por Dados">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button layoutX="449.0" layoutY="80.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Pesquisar" />
+                        <TableView layoutX="16.0" layoutY="125.0" prefHeight="306.0" prefWidth="545.0" />
+                        <TextField layoutX="14.0" layoutY="31.0" prefHeight="25.0" prefWidth="250.0" />
+                        <TextField layoutX="288.0" layoutY="31.0" prefHeight="25.0" prefWidth="250.0" />
+                        <TextField layoutX="16.0" layoutY="80.0" prefHeight="25.0" prefWidth="200.0" />
+                        <TextField layoutX="230.0" layoutY="80.0" prefHeight="25.0" prefWidth="200.0" />
+                        <Label layoutX="16.0" layoutY="14.0" text="Nome" />
+                        <Label layoutX="289.0" layoutY="14.0" text="Apelido" />
+                        <Label layoutX="14.0" layoutY="63.0" text="CPF" />
+                        <Label layoutX="230.0" layoutY="63.0" text="RG" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Pesquisa por Data">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="24.0" layoutY="20.0" text="Datas" />
+                        <TableView layoutX="16.0" layoutY="73.0" prefHeight="364.0" prefWidth="545.0" />
+                        <Button layoutX="473.0" layoutY="37.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Pesquisar" />
+                        <Label layoutX="231.0" layoutY="41.0" text="Entre" />
+                        <DatePicker layoutX="24.0" layoutY="37.0" prefHeight="25.0" prefWidth="194.0" />
+                        <DatePicker layoutX="272.0" layoutY="37.0" prefHeight="25.0" prefWidth="194.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>

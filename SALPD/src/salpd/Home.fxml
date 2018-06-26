@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="salpd.Home">
+   <children>
+      <TableView layoutX="26.0" layoutY="44.0" prefHeight="241.0" prefWidth="524.0" />
+      <Button layoutX="488.0" layoutY="483.0" mnemonicParsing="false" onAction="#Sair" prefHeight="25.0" prefWidth="62.0" text="Sair" />
+      <Label layoutX="26.0" layoutY="27.0" text="Desaparecidos nos ultimos 6 meses" />
+      <Button layoutX="135.0" layoutY="337.0" mnemonicParsing="false" onAction="#Pesquisa" prefHeight="40.0" prefWidth="148.0" text="Realizar pesquisa" />
+      <Button layoutX="135.0" layoutY="384.0" mnemonicParsing="false" onAction="#Cadastro_Denuncia" prefHeight="40.0" prefWidth="148.0" text="Cadastro de Denuncia" />
+      <Button layoutX="294.0" layoutY="384.0" mnemonicParsing="false" onAction="#Cadastro_Agente" prefHeight="40.0" prefWidth="148.0" text="Cadastro de Agente" />
+      <Button layoutX="294.0" layoutY="337.0" mnemonicParsing="false" onAction="#Cadastro_Gestor" prefHeight="40.0" prefWidth="148.0" text="Cadastro de Gestor" />
+   </children>
+</Pane>

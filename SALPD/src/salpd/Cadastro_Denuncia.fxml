@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="salpd.Cadastro_Denuncia">
+   <children>
+      <Label layoutX="302.0" layoutY="109.0" text="RG" />
+      <TextField layoutX="302.0" layoutY="126.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField layoutX="77.0" layoutY="126.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="77.0" layoutY="109.0" text="CPF" />
+      <Label layoutX="77.0" layoutY="64.0" text="Nome" />
+      <TextField layoutX="77.0" layoutY="81.0" prefHeight="25.0" prefWidth="425.0" />
+      <Button layoutX="179.0" layoutY="501.0" mnemonicParsing="false" onAction="#Sair" prefHeight="38.0" prefWidth="80.0" text="Cadastrar" />
+      <Button layoutX="293.0" layoutY="501.0" mnemonicParsing="false" onAction="#Sair" prefHeight="38.0" prefWidth="80.0" text="Cancelar" />
+      <TextField layoutX="77.0" layoutY="175.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="77.0" layoutY="158.0" text="Apelido" />
+      <DatePicker layoutX="302.0" layoutY="175.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="303.0" layoutY="158.0" text="Data de Desaparecimento" />
+      <TextArea layoutX="76.0" layoutY="366.0" prefHeight="115.0" prefWidth="425.0" />
+      <Label layoutX="76.0" layoutY="349.0" text="Denuncia" />
+      <Label layoutX="77.0" layoutY="40.0" text="Dados do Desaparecido" />
+      <TextField layoutX="75.0" layoutY="262.0" prefHeight="25.0" prefWidth="425.0" />
+      <Label layoutX="78.0" layoutY="245.0" text="Rua" />
+      <Label layoutX="76.0" layoutY="287.0" text="Bairro" />
+      <TextField layoutX="76.0" layoutY="304.0" prefHeight="25.0" prefWidth="126.0" />
+      <TextField layoutX="301.0" layoutY="304.0" prefHeight="25.0" prefWidth="200.0" />
+      <Label layoutX="301.0" layoutY="287.0" text="Cidade" />
+      <TextField layoutX="213.0" layoutY="304.0" prefHeight="25.0" prefWidth="80.0" />
+      <Label layoutX="213.0" layoutY="287.0" text="Número" />
+      <Label layoutX="77.0" layoutY="228.0" text="Localização" />
+   </children>
+</Pane>
